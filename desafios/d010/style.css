@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Double:wght@100..900&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkseagreen;
+    margin: 0px;
+}
+header {
+     background-image: linear-gradient(to bottom,#509c50, #1b411b);
+    background-attachment: fixed;
+    color: white;
+}
+.intro {
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+.intro > h1 {
+    font-family: 'Bebas+Neue', Arial, Helvetica, sans-serif;
+}
+nav {
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+}
+main {
+    text-align: center;
+    background-color: white;
+}
+main > h1 {
+    font-family: 'android', Arial, sans-serif;
+}
